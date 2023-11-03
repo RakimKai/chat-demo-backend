@@ -1,0 +1,24 @@
+{
+  "name": "twitter-name",
+  "version": "18.18.1",
+  "description": "An automation script that posts a twitter post anytime a specifc artist droppes a song or album on spotity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmed Elshiekh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cron": "^3.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "got": "^13.0.0",
+    "needle": "^3.2.0",
+    "oauth-1.0a": "^2.2.6",
+    "socket.io": "^4.7.2",
+    "twit": "^2.2.11",
+    "twitter-api-v2": "^1.15.2"
+  }
+}
